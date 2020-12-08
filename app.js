@@ -1,4 +1,4 @@
-
+var port = process.env.port || 5000;
 const vertex = require('vertex360')({site_id: process.env.TURBO_APP_ID})
 const express = require('express')
 const path = require ('path')
